@@ -10,7 +10,7 @@ mydb=mysql.connector.connect(
     database='testing'
 )
 mycursor=mydb.cursor()
-print('vijay')
+print('mvijay')
 
 #create streamlit app
 def main():
