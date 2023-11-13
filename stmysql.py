@@ -1,9 +1,9 @@
 import streamlit as st
-import mysql.connector
+import mysql.connector as mysql
 
 #establish connection  to my sql
 
-mydb=mysql.connector.connect(
+mydb=mysql.connect(
     host='localhost',
     user='root',
     password='password',
